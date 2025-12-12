@@ -43,15 +43,29 @@ Python
 
 Pandas, NumPy
 
-Scikit-learn
-
 XGBoost, LightGBM, Random Forest
 
 Streamlit
-
-Matplotlib / Seaborn
+Evaluation metrics:
+- MAE ~78  
+- RMSE ~180  
 
 GitHub
+## 🛠️ Feature Engineering
+Features created to enhance model performance:
+
+- Lag features (lag_1, lag_24)  
+- Rolling averages (rolling_7, rolling_14)  
+- Hour of day  
+- Day of week  
+- Weekend indicator  
+- Seasonal indicator  
+- Visit counts  
+- Travel delays  
+- Weather conditions  
+- `Is_Full` classification label (>90% occupancy)  
+
+These features capture time patterns, peaks, seasonality, and visitor flow.
 
 📊 Machine Learning Models
 Regression
@@ -95,8 +109,5 @@ Clear insights for planning and decision-making
 
 Real-world application of machine learning concepts
 
-
-
-Adjust it exactly to instructor style
 
 Just tell me 👍
